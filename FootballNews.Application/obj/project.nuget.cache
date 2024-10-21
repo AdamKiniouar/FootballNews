@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "SxXU4EV2Ues=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\AdamKi\\source\\repos\\FootballNews\\FootballNews.Application\\FootballNews.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AdamKi\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
+    "C:\\Users\\AdamKi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
