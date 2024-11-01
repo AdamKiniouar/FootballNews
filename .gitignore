@@ -71,3 +71,27 @@ $RECYCLE.BIN/
 
 # Rider directories
 .idea/
+
+# Ignore obj directories and specific files in FootballNews.Application
+FootballNews.Application/obj/
+FootballNews.Application/obj/FootballNews.Application.csproj.nuget.dgspec.json
+FootballNews.Application/obj/project.assets.json
+FootballNews.Application/obj/project.nuget.cache
+
+# Ignore obj directories and specific files in FootballNews.Domain
+FootballNews.Domain/obj/
+FootballNews.Domain/obj/FootballNews.Domain.csproj.nuget.dgspec.json
+FootballNews.Domain/obj/project.assets.json
+FootballNews.Domain/obj/project.nuget.cache
+
+# Ignore obj directories and specific files in FootballNews.Infrastructure
+FootballNews.Infrastructure/obj/
+FootballNews.Infrastructure/obj/FootballNews.Infrastructure.csproj.nuget.dgspec.json
+FootballNews.Infrastructure/obj/project.assets.json
+FootballNews.Infrastructure/obj/project.nuget.cache
+
+# Ignore obj directories and specific files in FootballNews.WebUI.Server
+FootballNews.WebUI.Server/obj/
+FootballNews.WebUI.Server/obj/FootballNews.WebUI.Server.csproj.nuget.dgspec.json
+FootballNews.WebUI.Server/obj/project.assets.json
+FootballNews.WebUI.Server/obj/project.nuget.cache
