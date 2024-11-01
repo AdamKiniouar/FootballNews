@@ -1,4 +1,6 @@
-﻿namespace FootballNews.Application.DTOs;
+﻿using System.Text.Json.Serialization;
+
+namespace FootballNews.Application.DTOs;
 
 public class ArticleDto
 {
@@ -11,7 +13,9 @@ public class ArticleDto
         PublishedDate = publishedDate;
     }
 
+    [JsonIgnore]
     public int Id { get; set; }
+    public int TeamId { get; set; }
     public string Title { get; set; }
     public string Content { get; set; }
     public string Url { get; set; }

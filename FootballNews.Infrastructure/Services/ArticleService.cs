@@ -26,7 +26,8 @@ namespace FootballNews.Infrastructure.Services
                 article.Source,
                 article.PublishedDate)
             {
-                Id = article.Id
+                Id = article.Id,
+                TeamId = article.TeamId
             };
         }
 
@@ -42,6 +43,7 @@ namespace FootballNews.Infrastructure.Services
                 article.PublishedDate)
             {
                 Id = article.Id,
+                TeamId = article.TeamId
 
             }).ToList();
         }
@@ -55,7 +57,8 @@ namespace FootballNews.Infrastructure.Services
                 articleDto.Source,
                 articleDto.PublishedDate)
             {
-                FetchDate = DateTime.UtcNow
+                FetchDate = DateTime.UtcNow,
+                TeamId = articleDto.TeamId
             };
 
             await _articleRepository.AddAsync(article);

@@ -17,19 +17,6 @@ public class FootballNewsDbContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
 
-        // Seed data
-        modelBuilder.Entity<User>().HasData(
-            new User("Admin", "admin@example.com", "Password1337"));
-
-        modelBuilder.Entity<Team>().HasData(
-            new Team("IFK Göteborg", 1)
-            {
-                Icon = "To Do",
-                Description = "To Do",
-                Trainer = "To Do"
-            }
-        );
-
         modelBuilder.ApplyConfiguration(new UserConfiguration());
         modelBuilder.ApplyConfiguration(new ArticleConfiguration());
         modelBuilder.ApplyConfiguration(new TeamConfiguration());
